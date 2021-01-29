@@ -35,7 +35,7 @@ class CampusCard:
         rsa_keys = rsa.create_key_pair(1024)
         return {
             'appKey': '',
-            'sessionId': '',
+            'sessionId': '4e2827cb-1c29-4ec4-9ad1-5b5961138634',
             'exchangeFlag': True,
             'login': False,
             'serverPublicKey': '',
@@ -47,7 +47,11 @@ class CampusCard:
             }
         }
 
-    def exchange_secret(self):
+    def 
+    
+    
+    
+    (self):
         '''
         与完美校园服务器交换RSA加密的公钥，并取得sessionId
         :return:
