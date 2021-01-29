@@ -47,11 +47,7 @@ class CampusCard:
             }
         }
 
-    def 
-    
-    
-    
-    (self):
+    def exchange_secret(self):
         '''
         与完美校园服务器交换RSA加密的公钥，并取得sessionId
         :return:
