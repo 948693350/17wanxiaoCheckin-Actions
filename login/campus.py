@@ -39,8 +39,8 @@ class CampusCard:
             'exchangeFlag': True,
             'login': False,
             'serverPublicKey': '',
-            'deviceId': str(random.randint(999999999999999, 9999999999999999)),
-            'wanxiaoVersion': 10462101,
+            'deviceId': "0278659035865441039187448",
+            'wanxiaoVersion': 10534101,
             'rsaKey': {
                 'private': rsa_keys[1],
                 'public': rsa_keys[0]
@@ -91,13 +91,13 @@ class CampusCard:
             'password': password_list,
             'qudao': 'guanwang',
             'requestMethod': 'cam_iface46/loginnew.action',
-            'shebeixinghao': 'MLA-AL10',
+            'shebeixinghao': 'MI 6',
             'systemType': 'android',
-            'telephoneInfo': '5.1.1',
-            'telephoneModel': 'HUAWEI MLA-AL10',
+            'telephoneInfo': '9.0',
+            'telephoneModel': 'MI6',
             'type': '1',
             'userName': self.phone,
-            'wanxiaoVersion': 10462101,
+            'wanxiaoVersion': 10534101,
             'yunyingshang': '07'
         }
         upload_args = {
