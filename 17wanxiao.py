@@ -7,6 +7,7 @@ import requests
 from login import CampusCard
 
 
+
 def initLogging():
     logging.getLogger().setLevel(logging.INFO)
     logging.basicConfig(format="[%(levelname)s]; %(message)s")
