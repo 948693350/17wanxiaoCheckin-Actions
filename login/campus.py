@@ -39,7 +39,7 @@ class CampusCard:
             'exchangeFlag': True,
             'login': False,
             'serverPublicKey': '',
-            'deviceId': str(random.randint(999999999999999, 9999999999999999)),
+            'deviceId': "0278659035865441039187448",
             'wanxiaoVersion': 10462101,
             'rsaKey': {
                 'private': rsa_keys[1],
@@ -94,7 +94,7 @@ class CampusCard:
             'shebeixinghao': 'MLA-AL10',
             'systemType': 'android',
             'telephoneInfo': '5.1.1',
-            'telephoneModel': 'HUAWEI MLA-AL10',
+            'telephoneModel': 'MI 6',
             'type': '1',
             'userName': self.phone,
             'wanxiaoVersion': 10462101,
